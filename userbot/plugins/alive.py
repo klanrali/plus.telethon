@@ -28,7 +28,7 @@ async def amireallyalive(alive):
     if CAT_IMG:
         cat_caption  = f"__**✮ MY BOT IS RUNNING SUCCESFULLY ✮**__\n\n"
         cat_caption += f"**✧ Database :** `{check_sgnirts}`\n"   
-        cat_caption += f"**✧ Telethon version :** `{version.__version__}\n`"
+        cat_caption += f"**✧ Telethon version @tele-thon :** `{version.__version__}\n`"
         cat_caption += f"**✧ Catuserbot Version :** `{catversion}`\n"
         cat_caption += f"**✧ Python Version :** `{python_version()}\n`"
         cat_caption += f"**✧ Uptime :** `{uptime}\n`"  
