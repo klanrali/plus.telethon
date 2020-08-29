@@ -1,4 +1,4 @@
-"""Thumbnail Utilities, © @AnyDLBot
+"""Thumbnail Utilities, © @TELE_THON
 Available Commands:
 .savethumbnail
 .clearthumbnail
