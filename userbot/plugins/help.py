@@ -38,7 +38,7 @@ async def cmd_list(event):
                     string += "\n"
                 await event.edit(string)
             else:
-                await event.edit(input_str + " is not a valid plugin!")
+                await event.edit(input_str + " is not a valid plugin! @tele_thon")
         else:
             help_string = f"Userbot Helper.. Provided by {DEFAULTUSER}\
                           \nUserbot Helper to reveal all the plugin names\
@@ -94,7 +94,7 @@ async def info(event):
                     string += "\n"
                 await event.reply(string)
         else:
-                await event.reply(args + " is not a valid plugin!")
+                await event.reply(args + " is not a valid plugin! @tele_thon")
     else:
         string = "**Please specify which plugin do you want help for !!**\
             \n**Usage:** `.info` <plugin name>\n\n"
