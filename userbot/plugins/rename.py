@@ -3,7 +3,7 @@ Syntax:
 .rename file.name
 .rnupload file.name
 .rnstreamupload file.name
-By @Ck_ATR"""
+By @tele_thon"""
 import aiohttp
 import asyncio
 from datetime import datetime
