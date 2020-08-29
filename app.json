@@ -1,5 +1,5 @@
 {
-  "name": "telethon.plus",
+  "name": "DAV.KLANRALI",
   "description": "Userbot created by a SNAPDRAGON and custom fork by https://t.me/mrconfused contact @tele_thon for support",
   "logo": "https://telegra.ph/file/58d0bcd0e25041155d04b.jpg",
   "keywords": [
@@ -104,7 +104,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Baghdad",
       "required": false
     }
   },
