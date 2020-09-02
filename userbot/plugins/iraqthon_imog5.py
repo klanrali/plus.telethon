@@ -1,5 +1,8 @@
-#https://github.com/jisan009bot/catuserbot credits to @Jisan7509
-
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
 from telethon import events
 import asyncio
 from userbot.utils import admin_cmd
