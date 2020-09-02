@@ -1,5 +1,5 @@
 {
-  "name": "DAV.KLANRALI",
+  "name": "iraqthon",
   "description": "Userbot created by a SNAPDRAGON and custom fork by https://t.me/mrconfused contact @tele_thon for support",
   "logo": "https://telegra.ph/file/58d0bcd0e25041155d04b.jpg",
   "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/klanrali/plus.telethon/",
+  "repository": "https://github.com/klanrali/iraqthon/",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
@@ -18,13 +18,9 @@
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "TMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./DOWNLOADS/",
-      "required": false
-    },
+    
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "@tele_thon",
       "value": ""
     },
     "APP_ID": {
@@ -53,7 +49,7 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "@tele_thon",
       "value": "",
       "required": false
     },
@@ -64,16 +60,6 @@
     },    
     "MAX_FLOOD_IN_P_M_s": {
       "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 6 by default.",
-      "value": "6",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-      "value": "",
-      "required": false
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
       "value": "",
       "required": false
     },
@@ -84,21 +70,6 @@
     },
     "AUTONAME": {
       "description": "for .autoname command",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-    },
-    "UB_BLACK_LIST_CHAT": {
-      "description": "set blacklist_chats where you do not want userbot features",
-      "value": "-1051754159",
-      "required": false
-    },
-    "DOWNLOAD_PFP_URL_CLOCK": {
-      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
       "value": "",
       "required": false
     },
