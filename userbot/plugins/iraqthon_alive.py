@@ -1,4 +1,9 @@
-"""Check if userbot alive or not . """
+"""#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
+ . """
 
 import os
 import re
@@ -36,7 +41,7 @@ async def amireallyalive(alive):
         await borg.send_file(alive.chat_id, CAT_IMG, caption=cat_caption, reply_to=reply_to_id)
         await alive.delete()
     else:
-        await alive.edit(f"__**✮ MY BOT IS RUNNING SUCCESFULLY ✮**__\n\n"
+        await alive.edit(f"__**✮ MY BOT IS RUNNING SUCCESFULLY @TELE_THON ✮**__\n\n"
                          f"**✧ Database :** `{check_sgnirts}`\n"   
                          f"**✧ Telethon Version :** `{version.__version__}\n`"
                          f"**✧ Catuserbot Version :** `{catversion}`\n"
@@ -58,15 +63,12 @@ async def _(event):
     img.seek(0)
     await bot.send_file(event.chat_id , open("temp.webp", "rb"),reply_to=reply_to_id) 
 	
-#UniBorg Telegram UseRBot 
-#Copyright (C) 2020 @UniBorg
-#This code is licensed under
-#the "you can't use this for anything - public or private,
-#unless you know the two prime factors to the number below" license
-#543935563961418342898620676239017231876605452284544942043082635399903451854594062955
-#വിവരണം അടിച്ചുമാറ്റിക്കൊണ്ട് പോകുന്നവർ
-#ക്രെഡിറ്റ് വെച്ചാൽ സന്തോഷമേ ഉള്ളു..!
-#uniborg
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
+
 
 def check_data_base_heal_th():
     # https://stackoverflow.com/a/41961968
