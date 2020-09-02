@@ -25,11 +25,11 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "هنا ضع الرقم الصغير"
+      "value": "هنا ضع الرقم الصغير ايبي ايدي"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "هنا ضع الكود الصغير": ""
+        "value": "هنا ضع الكود الصغير ايبي هاش"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
