@@ -1,6 +1,5 @@
 
-# thr dav klanr ali 
-me ch @tele_thon
+# Hello. These files are all private to Source Iraq Thun. In short, there are files registered for Source, another group. You do not need to write a file from the beginning for the sake of rights, and there are complete files. Thank you for installing Iraq Thun. Our channel is here: https://t.me/tele_thon and dav @klanraloosh
 
 ### The Easy Way to deploy the bot
 Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from [Bot Father](https://t.me/botfather) and then Generate stringsession by clicking on run.on.repl.it button below and then click on deploy to heroku . Before clicking on deploy to heroku just click on fork and star just below
