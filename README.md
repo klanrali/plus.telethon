@@ -1,9 +1,5 @@
 
-# Hello. These files are all private to Source Iraq Thun. In short, there are files registered for Source, another group. You do not need to write a file from the beginning for the sake of rights, and there are complete files. Thank you for installing Iraq Thun. Our channel is here: https://t.me/tele_thon and dav @klanraloosh
-
-### The Easy Way to deploy the bot
-Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from [Bot Father](https://t.me/botfather) and then Generate stringsession by clicking on run.on.repl.it button below and then click on deploy to heroku . Before clicking on deploy to heroku just click on fork and star just below
-
+# Welcome to BOT Iraq Thun Thank you for choosing us. Our channel is here: https://t.me/tele_thon
 
 [![Deploy To Heroku iraqthon](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 <p align="center">
@@ -11,8 +7,8 @@ Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from 
     <img src="https://img.shields.io/github/forks/klanrali/plus.telethon?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/klanrali/plus.telethon">
-    <img src="https://img.shields.io/github/stars/klanrali/plus.telethon?style=social">
+  <a href="https://github.com/klanrali/iraqthon">
+    <img src="https://img.shields.io/github/stars/klanrali/iraqthon?style=social">
   </a>
 </p>
 
