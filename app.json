@@ -16,7 +16,7 @@
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
+      "value": "هنا ضع كود تيرمكس"
     },
     
     "ALIVE_NAME": {
@@ -25,27 +25,27 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "هنا ضع الرقم الصغير"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "هنا ضع الكود الصغير": ""
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
-      "value": ""
+      "value": "هنا ايضا ضع كود تيرمكس"
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": ""
+      "value": "هنا ضع معرف البوت بدون @"
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
+      "value": "هنا ضع توكن البوت"
     },
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
+      "value": "هنا ضع الكود من الموقع الاعلى",
       "required": false
     },
     "HEROKU_APP_NAME": {
