@@ -1,6 +1,11 @@
-#Made By @Nihinivi Keep Credits If You Are Goanna Kang This Lol
-#And Thanks To The Creator Of Autopic This Script Was Made from Snippets From That Script
-#Usage .gamerpfp  Im Not Responsible For Any Ban caused By This
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
+
+
+
 import requests , re , random 
 import urllib , os 
 from telethon.tl import functions
