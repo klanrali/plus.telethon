@@ -1,4 +1,8 @@
-""".admin Plugin for @UniBorg"""
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
