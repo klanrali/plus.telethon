@@ -1,3 +1,4 @@
+[![iraqthon](https://telegra.ph/file/45b23b015326aa79062a9.jpg)](https://heroku.com/deploy)
 
 # Welcome to BOT Iraq Thun Thank you for choosing us. Our channel is here: https://t.me/tele_thon
 
@@ -11,10 +12,6 @@
     <img src="https://img.shields.io/github/stars/klanrali/iraqthon?style=social">
   </a>
 </p>
-
-
-[![iraqthon](https://telegra.ph/file/60103eb0b48745ec5262a.jpg)](https://heroku.com/deploy)
-
 
 ### Join [here](https://t.me/tele_thon) for updates and tuts and [here](https://t.me/klanraloosh) for discussion and bugs
 
