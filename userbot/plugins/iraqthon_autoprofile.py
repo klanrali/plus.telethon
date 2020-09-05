@@ -1,16 +1,8 @@
-"""
-Time In Profile Pic.....
-Command: `.bloom`
-Hmmmm U need to config DOWNLOAD_PFP_URL_CLOCK var in Heroku with any telegraph image link
-:::::Credit Time::::::
-1) Coded By: @s_n_a_p_s
-2) Ported By: @r4v4n4 (Noodz Lober)
-3) End Game Help By: @spechide
-4) Better Colour Profile Pic By @PhycoNinja13b
-#curse: who ever edits this credit section will goto hell
-⚠️DISCLAIMER⚠️
-USING THIS PLUGIN CAN RESULT IN ACCOUNT BAN. WE DONT CARE ABOUT BAN, SO WE ARR USING THIS.
-"""
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
 from telethon import events
 import asyncio
 import time
