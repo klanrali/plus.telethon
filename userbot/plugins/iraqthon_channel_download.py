@@ -1,9 +1,8 @@
-"""
-Telegram Channel Media Downloader Plugin for userbot.
-usage: .geta channel_username [will  get all media from channel, tho there is limit of 3000 there to prevent API limits.]
-       .getc number_of_messsages channel_username  
-By: @Zero_cool7870
-"""
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
 import os
 import sys
 import time
