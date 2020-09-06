@@ -5,10 +5,7 @@
 #Our channel is here: https://t.me/tele_thon
 
 
-"""Cmd= `.zombie`
-Usage: Searches for deleted accounts in a groups and channels.
-Use .zombies clean to remove deleted accounts from the groups and channels.
-\nPorted by ©[NIKITA](t.me/kirito6969) and ©[EYEPATCH](t.me/NeoMatrix90)"""
+
 
 from telethon import events
 from userbot.utils import admin_cmd,sudo_cmd
@@ -66,7 +63,7 @@ async def rm_deletedacc(show):
     del_status = "`No deleted accounts found, Group is clean`"
 
     if con != "clean":
-        await show.edit("`Searching for ghost/deleted/zombie accounts...`")
+        await show.edit("`Searching for ghost/deleted/zombie accounts @tele_thon...`")
         async for user in show.client.iter_participants(show.chat_id):
 
             if user.deleted:
@@ -139,7 +136,7 @@ async def rm_deletedacc(show):
     del_status = "`No deleted accounts found, Group is clean`"
 
     if con != "clean":
-        cat = await show.reply("`Searching for ghost/deleted/zombie accounts...`")
+        cat = await show.reply("`Searching for ghost/deleted/zombie accounts @tele_thon...`")
         await asyncio.sleep(2)
         await cat.delete()
         async for user in show.client.iter_participants(show.chat_id):
