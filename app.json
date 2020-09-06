@@ -1,6 +1,6 @@
 {
   "name": "iraqthon",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by  @tele_thon for support",
+  "description": "Userbot created by a SNAPDRAGON and custom fork by @tele_thon for support",
   "logo": "https://telegra.ph/file/45b23b015326aa79062a9.jpg",
   "keywords": [
     "telegram",
@@ -16,7 +16,7 @@
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "هنا ضع كود تيرمكس"
+      "value": "كود تيرمكس"
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
@@ -29,39 +29,45 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "هنا ضع كود ايبي ايدي الرقم الصغير"
+      "value": "ايبي ايدي"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "هنا ضع كود ايبي هاش الكود الصغير"
+      "value": "ايبي هاش"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
-      "value": "هنا ضع كود تيرمكس"
+      "value": "كود تيرمكس ايضا"
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": "هنا ضع توكن البوت"
+      "value": "معرف البوت"
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": "هنا ضع معرف البوت بدون @"
+      "value": "توكن البوت"
     },
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "هنا ضع الكود جلبه من رابط الاعلى",
+      "value": "جلب الكود من الموقع الاعلى",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "YOUR app name ",
-      "value": "هنا ضع اسم حساب الهيروكي الخاص بك",
+      "value": "اسم حساب هيروكي خاص بك",
+      "required": false
+    }, 
+    "MAX_FLOOD_IN_P_M_s": {
+      "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 6 by default.",
+      "value": "",
       "required": false
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Baghdad",
       "required": false
-    },
+    }
+  },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
