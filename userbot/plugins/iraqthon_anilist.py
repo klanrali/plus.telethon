@@ -1,8 +1,8 @@
-"""	
-Anilist Search Plugin for Userbot	
-Usage : .anilist animeName	
-By :- @Zero_cool7870	
-"""
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
  
 import re
 import json
