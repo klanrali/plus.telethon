@@ -21,7 +21,7 @@
     
     "ALIVE_NAME": {
       "description": "your nema",
-      "value": "@tele_thon"
+      "value": "tele_thon"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -50,7 +50,7 @@
     },
     "HEROKU_APP_NAME": {
       "description": "your heroku nema",
-      "value": "@tele_thon",
+      "value": "tele_thon",
       "required": false
     },
     "TZ": {
