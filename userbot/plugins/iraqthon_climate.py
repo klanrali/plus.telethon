@@ -1,8 +1,8 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
+#Hello. These files are all private to Source Iraq Thun. 
+#In short, there are files registered for Source, another group. 
+#You do not need to write a file from the beginning for the sake of rights, 
+#and there are complete files. Thank you for installing Iraq Thun. 
+#Our channel is here: https://t.me/tele_thon
 """ Userbot module for getting the weather of a city. """
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
