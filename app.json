@@ -9,48 +9,48 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/klanrali/iraqthon/",
+  "repository": "https://github.com/klanrali/IRAQTHON/",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "هنا ضع كود تيرمكس"
+      "value": ""
     },
     
     "ALIVE_NAME": {
       "description": "your nema",
-      "value": "tele_thon"
+      "value": "aliklanr"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "هنا ضع الرقم الصغير ايبي ايدي"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-        "value": "هنا ضع الكود الصغير ايبي هاش"
+        "value": ""
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
-      "value": "هنا ايضا ضع كود تيرمكس"
+      "value": ""
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": "هنا ضع معرف البوت بدون @"
+      "value": ""
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": "هنا ضع توكن البوت"
+      "value": ""
     },
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "هنا ضع الكود من الموقع الاعلى",
+      "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "your heroku nema",
-      "value": "tele_thon",
+      "value": "",
       "required": false
     },
     "TZ": {
