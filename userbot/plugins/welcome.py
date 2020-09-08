@@ -1,9 +1,8 @@
 from telethon import events
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
 from telethon.utils import pack_bot_file_id
 from userbot.plugins.sql_helper.welcome_sql import get_current_welcome_settings, \
     add_welcome_setting, rm_welcome_setting, update_previous_welcome
+
 
 @bot.on(events.ChatAction())  # pylint:disable=E0602
 async def _(event):
@@ -48,7 +47,8 @@ async def _(event):
             )
             update_previous_welcome(event.chat_id, current_message.id)
 
-@borg.on(admin_cmd(pattern="savewelcome"))  # pylint:disable=E0602
+
+@command(pattern="^.savewelcome")  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
@@ -62,7 +62,8 @@ async def _(event):
         add_welcome_setting(event.chat_id, input_str[1], True, 0, None)
         await event.edit("Welcome note saved. ")
 
-@borg.on(admin_cmd(pattern="clearwelcome"))  # pylint:disable=E0602
+
+@command(pattern="^.clearwelcome")  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
@@ -73,7 +74,7 @@ async def _(event):
         "The previous welcome message was `{}`.".format(cws.custom_welcome_message)
     )
 
-@borg.on(admin_cmd(pattern="listwelcome$"))  # pylint:disable=E0602
+@command(pattern="^.listwelcome")  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
@@ -87,17 +88,3 @@ async def _(event):
         await event.edit(
             "No Welcome Message found"
         )
-            
-CMD_HELP.update({
-    "welcome":
-    "\
-**SYNTAX :** `.savewelcome` <welcome message> or reply to a message with .setwelcome\
-\n**USAGE :** Saves the message as a welcome note in the chat.\
-\n\nAvailable variables for formatting welcome messages :\
-\n`{mention}, {title}, {count}, {first}, {last}, {fullname}, {userid}, {username}, {my_first}, {my_fullname}, {my_last}, {my_mention}, {my_username}`\
-\n\n**SYNTAX :** `.listwelcome`\
-\n**USAGE :** Check whether you have a welcome note in the chat.\
-\n\n**SYNTAX :** `.clearwelcome`\
-\n**USAGE :** Deletes the welcome note for the current chat.\
-"
-})
