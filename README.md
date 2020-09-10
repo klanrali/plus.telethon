@@ -1,4 +1,4 @@
-[![iraqthon](https://telegra.ph/file/45b23b015326aa79062a9.jpg)](https://heroku.com/deploy)
+[![iraqthon](https://telegra.ph/file/122a7103f64e88bd97ae4.jpg)](https://heroku.com/deploy)
 
 # Welcome to BOT Iraq Thun Thank you for choosing us. Our channel is here: https://t.me/tele_thon
 
