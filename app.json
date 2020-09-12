@@ -1,6 +1,6 @@
 {
   "name": "iraqthon",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by @tele_thon for support",
+  "description": "bot iraq thon for iraqi and me ch @iraqthon and ma dav @aliklanr",
   "logo": "https://telegra.ph/file/122a7103f64e88bd97ae4.jpg",
   "keywords": [
     "telegram",
@@ -9,11 +9,15 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/klanrali/IRAQTHON/",
+   "repository": "https://github.com/sandy1709/catuserbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
   "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "كود تيرمكس"
+    },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./DOWNLOADS/",
