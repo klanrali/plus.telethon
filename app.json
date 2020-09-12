@@ -48,11 +48,6 @@
       "value": "جلب الكود من الموقع الاعلى",
       "required": false
     },
-    "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "اسم حساب هيروكي خاص بك",
-      "required": false
-    }, 
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Baghdad",
