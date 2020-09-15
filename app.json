@@ -25,7 +25,7 @@
     },
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": "klanrali"
+      "value": "@iraqthon"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -50,6 +50,11 @@
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "جلب الكود من الموقع الاعلى",
+      "required": false
+    },
+     "ALIVE_PIC": {
+      "description": "the pic that to show in your alive message url.",
+      "value": "https://telegra.ph/file/5e8a82f338a8d8ae2c138.jpg",
       "required": false
     },
     "TZ": {
