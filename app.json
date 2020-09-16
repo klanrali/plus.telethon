@@ -1,7 +1,7 @@
 {
   "name": "iraqthon",
-  "description": "bot iraq thon for iraqi and me ch @iraqthon and ma dav @aliklanr",
-  "logo": "https://telegra.ph/file/122a7103f64e88bd97ae4.jpg",
+  "description": "bot iraq thon for iraqi and me ch @iraqthon and ma dav @klanr",
+  "logo": "https://telegra.ph/file/21777ec2c86ecadc1a5d4.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -54,7 +54,7 @@
     },
      "ALIVE_PIC": {
       "description": "the pic that to show in your alive message url.",
-      "value": "https://telegra.ph/file/5e8a82f338a8d8ae2c138.jpg",
+      "value": "https://telegra.ph/file/21777ec2c86ecadc1a5d4.jpg",
       "required": false
     },
     "TZ": {
