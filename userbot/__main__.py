@@ -44,8 +44,8 @@ for name in files:
         load_module(shortname.replace(".py", ""))
         
 LOGS.info("Yay your userbot is officially working.!!!")
-LOGS.info("Congratulation, now type .alive to see message if bot is live\n"
-          "If you need assistance, head to https://t.me/catuserbot_support")
+LOGS.info("Now the bot is working, send an .alive\n"
+          "source to t.me/IQTHON and me Dav t.me/klanr")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
