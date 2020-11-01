@@ -2,7 +2,6 @@
 Support chatbox for pmpermit.
 Used by incoming messages with trigger as /start
 Will not work for already approved people.
-Credits: written by ༺αиυвιѕ༻ {@A_Dark_Princ3}
 """
 import asyncio
 import io 
@@ -26,14 +25,16 @@ async def _(event):
             return
         if not event.is_private:
             return
-        PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
-               f"{DEFAULTUSER}.\n"
-               "__Let's make this smooth and let me know why you are here.__\n"
-               "**Choose one of the following reasons why you are here:**\n\n"
-               "`a`. To chat with my master\n"
-               "`b`. To spam my master's inbox.\n"
-               "`c`. To enquire something\n"
-               "`d`. To request something\n")
+        PM = (
+            "⌔︙🕷🇮🇶Welcome to Source Iraq"
+            f"{DEFAULTUSER}.\n"
+            "⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
+            "⌔︙🕷🇮🇶Principal developer: @klanr\n"
+            "⌔︙🕷🇮🇶Never repeat here\n"
+            "⌔︙🕷🇮🇶Email the person now\n"
+            "⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n"
+            "⌔︙🕷🇮🇶In case here is a problem, send .restart\n"
+        )
         ONE = ("__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy man, unlike you probably.__\n\n"
                 "**⚠️ You will be blocked and reported if you spam nibba. ⚠️**\n\n"
                 "__Use__ `/start` __to go back to the main menu.__")
